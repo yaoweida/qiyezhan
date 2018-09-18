@@ -1,0 +1,198 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-08-29 14:53:39
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-08-29 18:08:25
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url('../img/1.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.box{
+	width: 500px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 220px auto;
+	position: relative;
+	/* border-radius: 20px; */
+	
+}
+.box .zhu{
+	width: 80px;
+	height: 150px;
+	background: red;
+	overflow: hidden;
+	background-color: rgba(250, 250, 250, 0.5);
+}
+.box .zhu h3{
+	text-align: center;
+	margin-top: 50px;
+}
+/* .box .zhu h3 a{
+	text-decoration: none;
+	color: #333;
+} */
+.box .deng{
+	width: 80px;
+	height: 150px;
+	background: red;
+	overflow: hidden;
+	background-color: rgba(150, 150, 150, 0.5);
+}
+.box .deng h3{
+	text-align: center;
+	margin-top: 50px;
+	/* line-height: 75px; */
+
+}
+.box .deng h3 a{
+	text-decoration: none;
+	color: #333;
+}
+.box .one{
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	top: 40px;
+	left: 120px;
+	outline: none;
+}
+.box .two{
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	outline: none;
+	top: 90px;
+	left: 120px;
+}
+.box .three{
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	outline: none;
+	top: 140px;
+	left: 120px;
+}
+.box .four{
+	width: 80px;
+	height: 30px;
+	position: absolute;
+	outline: none;
+	top: 190px;
+	left: 120px;
+}
+.box .icon-refresh_icon{
+	font-style: normal;
+	color: #333;
+	font-size: 20px;
+	position: absolute;
+	top: 190px;
+	left: 215px;
+}
+.box .box1{
+	width: 70px;
+	height: 30px;
+	background: #999;
+	position: absolute;
+	top: 190px;
+	left: 250px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+}
+.box .box2{
+	width: 200px;
+	height: 30px;
+	background: #504B64;
+	position: absolute;
+	top: 250px;
+	left: 120px;
+	/* margin-left: 100px; */
+	text-align: center;
+	line-height: 30px;
+}
+.box .box2 a{
+	text-decoration: none;
+	color: white;
+}
+/* .box h4{
+	position: absolute;
+	top: 90px;
+	right: 180px;
+}
+.box .box4{
+	width: 50px;
+	height: 50px;
+	
+	position: absolute;
+	top: 85px;
+	right: 120px;
+}
+.box .box4 img{
+	width: 100%;
+	height: 100%;
+}
+.box .box5{
+	width: 120px;
+	height: 30px;
+	background: #504B64;
+	position: absolute;
+	top: 95px;
+	right: 11px;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+.box .box6{
+	width: 30px;
+	height: 30px;
+	
+	position: absolute;
+	top: 150px;
+	right: 130px;
+}
+.box .box6 img{
+	width: 100%;
+	height: 100%;
+}
+.box .box7{
+	width: 120px;
+	height: 30px;
+	background: #504B64;
+	position: absolute;
+	top: 150px;
+	right: 11px;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+.box .box8{
+	width: 35px;
+	height: 35px;
+	
+	position: absolute;
+	top: 200px;
+	right: 125px;
+}
+.box .box8 img{
+	width: 100%;
+	height: 100%;
+}
+.box .box9{
+	width: 120px;
+	height: 30px;
+	background: #504B64;
+	position: absolute;
+	top: 205px;
+	right: 11px;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+ */

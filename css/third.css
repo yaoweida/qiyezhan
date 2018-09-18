@@ -1,0 +1,346 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-08-29 13:41:04
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-08-29 14:23:15
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+.head{
+	width: 100%;
+	height: 100px;
+	background: #df263f;
+	padding-top: 10px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.head .pic{
+	width: 150px;
+	height: 80px;
+	/* background: blue; */
+	margin: 0 auto;
+}
+.head .pic img{
+	width: 150px;
+	height: 80px;
+	background: blue;
+	margin: 0 auto;
+}
+.head .lie{
+	width: 40px;
+	height: 40px;
+	/* background: blue; */
+	float: right;
+	margin-top: -60px;
+	margin-right: 15px;
+	border-radius: 5px;
+	background: #f5f5f5;
+}
+.head .lie .box{
+	width: 25px;
+	height: 3px;
+	background: red;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+.head .right{
+	width: 64%;
+	/* height: 100px; */
+	background: white;
+	float: right;
+	margin-top: -105px;
+	background:white;
+	display: none;
+}
+.head .right .list{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	color: #666;
+	float: left;
+	margin-left: 30px;
+	/* padding: 5px 30px; */
+}
+.head .right .list:hover{
+	background: #f5f5f5;
+	color: red;
+}
+.middle{
+	width: 100%;
+	position: relative;
+}
+.middle img{
+	width: 100%;
+	height: 100%;
+}
+.middle .box{
+	width: 50px;
+	height: 50px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+	/* background: #ACABAB; */
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	font-size: 30px;
+	text-align: center;
+	color: #f5f5f5;
+	line-height: 50px;
+}
+.middle .box:hover{
+	background: #ACABAB;
+}
+.middle .li:hover{
+	background: #ACABAB;
+}
+.middle .li{
+	width: 50px;
+	height: 50px;
+	/* background: red; */
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	font-size: 30px;
+	text-align: center;
+	color: #f5f5f5;
+	line-height: 50px;
+}
+.middle .dian{
+	width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+}
+.middle .yuan{
+	width: 10px;
+	height: 10px;
+	background: #e1472f;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 15px;
+	left: 52%;
+}
+.middle .one{
+	width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 15px;
+	left: 54%;
+}
+.middle .two{
+	width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 15px;
+	left: 56%;
+}
+.ask{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	display: none;
+}
+.ask .age{
+	width: 100%;
+	height: 50px;
+	background: #df263f;
+	margin: 0 auto;
+}
+.ask .age p{
+	line-height: 50px;
+	margin-left: 50px;
+	color: white;
+
+}
+.ask .age p a{
+	color: white;
+	text-decoration: none;
+}
+.ask .age p a:hover{
+	color: #333
+}
+.for{
+	overflow: hidden;
+}
+.gun img{
+	width: 80%;
+	height: 80%;
+	display: block;
+	margin: 0 auto;
+
+}
+.guy{
+	/* width: 500px; */
+	height: 180px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	margin-top: 10px;
+	/* margin-left: 120px; */
+	/* margin-left: 50px; */
+}
+.guy p{
+	margin-top: 10px;
+}
+.good{
+	width: 100%;
+	height: 155px;
+	background: #333;
+	padding-top: 20px;
+	position: relative;
+}
+.good .bed{
+	/* width: 100%; */
+	color: #666;
+	margin-left: 10px;
+}
+.good p{
+	color: red;
+	margin-left: 10px;
+	color: #666;
+}
+.good p a{
+	color: #df263f;
+	text-decoration: none;
+}
+.good .night{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	display: none;
+	
+}
+.good .night img{
+	width: 100%;
+	height: 100%;
+}
+
+.good h4{
+	color: #666;
+	position: absolute;
+	top: 115px;
+	right: 20px;
+	display: none;
+}
+.cat{
+	width:100%;
+	height: 50px;
+	background:#1d1d1d;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.cat .kuai{
+	width: 25%;
+	height: 100%;
+	/* background: blue; */
+	float: left;
+}
+.cat .kuai:hover{
+	background: #333;
+}
+.cat .kuai .icon-weibiaoti-{
+	display: block;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+.cat .kuai p{
+	font-size:  12px;
+	text-align: center;
+	color: white;
+	margin-top: -10px;
+}
+.cat .kuai .icon-xinfeng{
+	display: block;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+.cat .kuai .icon-liuyan{
+	display: block;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+.cat .kuai .icon-weizhi{
+	display: block;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+	.head .lie{
+		display: none;
+	}
+	.head .lie .box{
+		display: none;
+	}
+	.head .pic{
+		width: 200px;
+		height: 100px;
+		margin-left: 120px;
+	}
+	.head .right{
+		display: block;
+	}
+	.ask{
+		display: block;
+	}
+	.ask .age{
+		display: block;
+		/* width: 100%; */
+	}
+	.gun img{
+		width: 50%;
+		height: 50%;
+	}
+	.cat{
+		display: none;
+	}
+	.good .night{
+		display: block;
+	}
+	.good h4{
+		display: block;
+	}
+}
